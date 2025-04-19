@@ -1,4 +1,7 @@
 package com.example.hotel.exception;
 
-public class OurException {
+public class OurException extends RuntimeException{
+    public OurException(String message){
+        super(message);
+    }
 }
